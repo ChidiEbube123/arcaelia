@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials</title>
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar nav-1">
+            <section class="flex">
+            <a href="home.html" class="logo"><i class="fas fa-house"></i>MyHome</a>
+            </section>
+        </nav>
+
+        <nav class="navbar nav-2">
+            <section class="flex">
+                <div id="menu-btn" class="fas fa-bars"></div>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">buy<i class="fas fa-angle-down"></i></a>
+                            <ul>
+                                <li><a href="house.html">house</a></li>
+                                <li><a href="flat.html">flat</a></li>
+                                <li><a href="land.html">land</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">rent<i class="fas fa-angle-down"></i></a>
+                            <ul>
+                                <li><a href="#">house</a></i></li>
+                                <li><a href="#">flat</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">help<i class="fas fa-angle-down"></i></a>
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul>
+                    <!-- <li><a href="#">account <i class="fas fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="login.html">login</a></li>
+                            <li><a href="register.html">register</a></li>
+                        </ul>
+                    </li> -->
+                </ul>
+            </section>
+        </nav>
+    </header>
+    <!-- home section starts -->
+    <section class="testimonials-section">
+        <h2>Client Testimonials & Success Stories</h2>
+        <p>Discover what our clients have to say about their experience with Anaria LLC. We take pride in delivering exceptional results in real estate investment, property management, and land acquisitions.</p>
+
+        <!-- Testimonials Section -->
+        <div class="testimonials">
+            <div class="testimonial">
+                <p class="feedback">"Anaria LLC helped me find my dream home! The team was professional, attentive, and made the entire process smooth. I couldn't be happier!"</p>
+                <p class="client-name">- Sarah J.</p>
+                <div class="stars">
+                    <span>★★★★★</span>
+                </div>
+            </div>
+
+            <div class="testimonial">
+                <p class="feedback">"I invested in a multifamily property through Anaria, and the returns have been phenomenal. Highly recommend their investment services!"</p>
+                <p class="client-name">- Michael R.</p>
+                <div class="stars">
+                    <span>★★★★☆</span>
+                </div>
+            </div>
+
+            <div class="testimonial">
+                <p class="feedback">"Their property management services have been top-notch. They handle everything so I can focus on my other investments."</p>
+                <p class="client-name">- Emma L.</p>
+                <div class="stars">
+                    <span>★★★★★</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Case Studies Section -->
+        <div class="case-studies">
+            <h3>Success Stories</h3>
+            <div class="case-study">
+                <h4>Multifamily Investment Project</h4>
+                <p>Our client purchased a 20-unit multifamily property through Anaria LLC, and within a year, their investment value increased by 30%. We managed the entire process, from acquisition to tenant management.</p>
+            </div>
+
+            <div class="case-study">
+                <h4>Farmland Acquisition</h4>
+                <p>One of our clients acquired 50 acres of farmland, thanks to our expert market insights. The property is now generating consistent returns through leasing and agricultural development.</p>
+            </div>
+        </div>
+
+        <!-- Client Feedback Form -->
+        <div class="feedback-form">
+            <h3>Leave a Testimonial</h3>
+            <form id="feedbackForm">
+                <label for="clientName">Your Name:</label>
+                <input type="text" id="clientName" name="clientName" required>
+
+                <label for="clientFeedback">Your Testimonial:</label>
+                <textarea id="clientFeedback" name="clientFeedback" rows="4" required></textarea>
+
+                <label for="starRating">Your Rating:</label>
+                <div class="star-rating">
+                    <span data-value="1">★</span>
+                    <span data-value="2">★</span>
+                    <span data-value="3">★</span>
+                    <span data-value="4">★</span>
+                    <span data-value="5">★</span>
+                </div>
+                <input type="hidden" id="starValue" name="starValue" value="0">
+
+                <button type="submit">Submit Testimonial</button>
+                <p class="feedback-status"></p>
+            </form>
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- footer section starts -->
+     <footer class="footer">
+        <section class="flex">
+            <div class="box">
+                <!-- <a href="tel:1234567890"><i class="fas fa-phone"></i><span>1234567890</span></a> -->
+                <a href="tel:1223334444"><i class="fas fa-phone"></i><span>5122478217</span></a>
+                <a href="mailto:anariallc@gmail.com"><i class="fas fa-envelope"></i><span>anariallc@gmail.com</span></a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i><span>31 Table rock road Coperas cove, Texas 76522</span></a>
+            </div>
+
+            <div class="box">
+                <a href="home.html"><span>home</span></a>
+                <a href="listings.html"><span>all listings</span></a>
+                <a href="blogs_resources.html"><span>blogs/resources</span></a>
+                <a href="about.html"><span>about</span></a>
+                <a href="contact.html"><span>contact</span></a>
+            </div>
+
+            <div class="box">
+                <a href="#"><span>facebook</span><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><span>twitter</span><i class="fab fa-twitter"></i></a>
+                <a href="#"><span>instagram</span><i class="fab fa-instagram"></i></a>
+                <a href="#"><span>linkedin</span><i class="fab fa-linkedin"></i></a>
+            </div>
+        </section>
+
+        <div class="credit">&copy; copyright @ 2024 by <span>Anaria LLC</span> |  all rights reserved!</div>
+     </footer>
+    <!-- footer section ends -->
+
+    <!--custom js file link-->
+    <script src="js/testimonial.js"></script>
+</body>
+</html>
